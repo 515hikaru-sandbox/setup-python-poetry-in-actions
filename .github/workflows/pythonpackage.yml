@@ -16,7 +16,6 @@ jobs:
     strategy:
       matrix:
         os: [Ubuntu, MacOS, Windows]
-      matrix:
         python-version: [3.6, 3.7, 3.8]
 
     steps:
